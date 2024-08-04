@@ -19,7 +19,7 @@
 }
 
 body {
-    background-color: var(--cor4);
+    background-image: linear-gradient(var(--cor3), var(--cor4));
 }
 
 header {
@@ -52,11 +52,13 @@ nav a {
     font-weight: bold;
     color: var(--cor5);
     text-shadow: 1px 2px 15px #00000091;
+    transition: 1s all;
 }
 
 nav a:hover {
     color: var(--cor4);
     text-decoration: underline;
+    font-size: 17.5px;
 }
 
 .inicial {
@@ -65,7 +67,6 @@ nav a:hover {
 
 .inicial main {
     max-width: 1000px;
-    min-height: 556px;
 }
 
 main {
@@ -124,13 +125,24 @@ p {
     max-width: 228px;
 }
 
-footer {
+.inicial footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
     background-color: black;
+}
+
+.inicial footer a {
+    color: white;
+} 
+
+footer {
+    background-color: var(--cor2);
     text-align: center;
 }
 
 footer a {
-    color: white;
+    color: black;
 }
 
 @media only screen and (max-width: 450px) {
@@ -143,8 +155,31 @@ footer a {
         background-image: url(../imagens/colheitadeirap.jpg);
     }
 
-
-    .ini {
-        background-color: rgba(255, 255, 255, 0.486);
+    .pinicial {
+        left: 110px;
     }
+
+    nav ul {
+        display: block;
+        list-style-type: none;
+        margin-top: 20px;
+    }
+
+    .inicial main {
+        background-color: #ffffff94;
+        padding-bottom: 60px ;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    nav ul {
+        margin-left: 120px;
+    }
+
+    .pinicial {
+        top: 35px;
+    }
+
+
 }
