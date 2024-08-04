@@ -27,6 +27,10 @@ header {
     background-color: var(--cor1);
 }
 
+.pinicial {
+    position: absolute;
+    top: 26px;
+}
 
 nav ul {
     display: flex;
@@ -45,5 +49,102 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: black;
+    font-weight: bold;
+    color: var(--cor5);
+    text-shadow: 1px 2px 15px #00000091;
+}
+
+nav a:hover {
+    color: var(--cor4);
+    text-decoration: underline;
+}
+
+.inicial {
+    background-image: url(../imagens/colheitadeira.jpg);
+}
+
+.inicial main {
+    max-width: 1000px;
+    min-height: 556px;
+}
+
+main {
+    margin: auto;
+    max-width: 950px;
+    background-color: white;
+    box-shadow: 6px 6px 11px 2px #00000082;
+    border-radius: 5px;
+}
+
+.ini {
+    background-color: transparent;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.conteudo {
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    margin: 5px;
+}
+
+.img {
+    text-align: center;
+    margin: 10px;
+}
+
+.img img {
+    box-shadow: 6px 6px 11px 2px #00000082;
+    border-radius: 5px;
+}
+
+.img p {
+    margin: auto;
+    max-width: 500px;
+    text-align: center;
+}
+
+.referencias ul {
+    margin: 30px;
+}
+
+.referencias li {
+    display: inline-block;
+    max-width: 228px;
+    margin: 10px;
+}
+
+.referencias li {
+    max-width: 228px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
+
+@media only screen and (max-width: 450px) {
+
+    body {
+        max-width: 450px;
+    }
+
+    .inicial {
+        background-image: url(../imagens/colheitadeirap.jpg);
+    }
+
+
+    .ini {
+        background-color: rgba(255, 255, 255, 0.486);
+    }
 }
