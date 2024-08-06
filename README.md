@@ -1,4 +1,4 @@
-Agrinho 2024
+#Agrinho 2024
  
 Este site foi criado para o concurso Agrinho 2024 para disponibilizar informações sobre o tema "Do Campo à Cidade Colhendo Oportunidades". O site fala sobre a interdepedência do campo e da cidade. O site contém informações sobre Agricultura Sustentável, Empreendedorismo rural e urbano e os Desafios a Soluções dos 2 mundos.
 
