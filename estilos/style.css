@@ -156,22 +156,27 @@ footer a {
     }
 
     .pinicial {
-        left: 110px;
+        left: 80px;
     }
 
     nav ul {
         display: block;
         list-style-type: none;
-        margin-top: 20px;
+        margin-top: 30px;
+        margin-left: 40px;
     }
 
     .inicial main {
         background-color: #ffffff94;
         padding-bottom: 60px ;
     }
+
+    .inicial footer {
+        position: relative;
+    }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-height: 400px) {
 
     nav ul {
         margin-left: 120px;
@@ -181,5 +186,8 @@ footer a {
         top: 35px;
     }
 
+    .inicial footer {
+        position: relative;
+    }
 
 }
