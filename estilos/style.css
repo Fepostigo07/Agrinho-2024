@@ -63,6 +63,8 @@ nav a:hover {
 
 .inicial {
     background-image: url(../imagens/colheitadeira.jpg);
+    background-repeat: no-repeat;
+    background-color: var(--cor3);
 }
 
 .inicial main {
@@ -132,7 +134,7 @@ p {
     background-color: black;
 }
 
-.inicial footer a {
+.inicial footer a, .inicial footer p {
     color: white;
 } 
 
@@ -167,13 +169,11 @@ footer a {
     }
 
     .inicial main {
-        background-color: #ffffff94;
+        background-image: linear-gradient(#ffffff94 80%, transparent);
         padding-bottom: 60px ;
     }
 
-    .inicial footer {
-        position: relative;
-    }
+
 }
 
 @media only screen and (max-height: 400px) {
