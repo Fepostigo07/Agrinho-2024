@@ -173,7 +173,17 @@ footer a {
         padding-bottom: 60px ;
     }
 
+    h1, h2, p {
+        margin: 0 15px;
+    }
 
+    li {
+        margin: 5px 30px;
+    }
+
+    footer {
+        margin-top: 10px;
+    }
 }
 
 @media only screen and (max-height: 400px) {
