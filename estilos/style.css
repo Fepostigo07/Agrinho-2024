@@ -64,6 +64,7 @@ nav a:hover {
 .inicial {
     background-image: url(../imagens/colheitadeira.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     background-color: var(--cor3);
 }
 
@@ -141,6 +142,7 @@ p {
 footer {
     background-color: var(--cor2);
     text-align: center;
+    margin-top: 20px;
 }
 
 footer a {
